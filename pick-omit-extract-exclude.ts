@@ -24,5 +24,5 @@
     
     type TExtract<T, U> = T extends U ? T : never;
     
-    type TOmit<T, K extends keyof any> = Pick<T, Exclude<keyof T, K>>;
+    type TOmit<T, K extends keyof any> = TPick<T, Exclude<keyof T, K>>;
 })();
