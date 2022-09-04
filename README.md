@@ -1,1 +1,1 @@
-# purple-school-typescript
+# TypeScript Exampes
